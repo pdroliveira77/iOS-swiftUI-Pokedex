@@ -53,7 +53,6 @@ extension PokedexView {
             Capsule().stroke(.gray)
         )
     }
-    
     var pokemonScroll: some View {
         ScrollView(showsIndicators: false) {
             ForEach(viewModel.pokemons) { pokemon in
