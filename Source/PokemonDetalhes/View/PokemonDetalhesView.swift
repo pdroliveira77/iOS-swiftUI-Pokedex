@@ -53,8 +53,14 @@ struct PokemonDetalhesView: View {
                                 Text("Nenhum status disponível")
                                     .foregroundStyle(.secondary)
                             } else {
-                                ForEach(pokemon.stats) { stat in
-                                    StatusBarView(nome: stat.nome, valor: stat.valor)
+                                ForEach(pokemon.stats) { status in
+                                    HStack
+                                    {
+                                        Text(status.nome.capitalized)
+                                        Spacer()
+                                        Text("\(status.valor)")
+                                            .fontWeight(.bold)
+                                    }
                                 }
                             }
                         }

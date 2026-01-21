@@ -19,7 +19,6 @@
 		4884F3F82E5B6AF1003AB0C8 /* FundoPokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4884F3F72E5B6AF1003AB0C8 /* FundoPokemonView.swift */; };
 		48AC3F782E57EF120010C60F /* PokedexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AC3F772E57EF120010C60F /* PokedexView.swift */; };
 		48AC3F7A2E57FA880010C60F /* PokedexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AC3F792E57FA800010C60F /* PokedexModel.swift */; };
-		48B39CA52E5D462600AA7125 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B39CA42E5D462600AA7125 /* StatusBarView.swift */; };
 		48B39CA82E5D4C4200AA7125 /* PokemonListaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B39CA72E5D4C4200AA7125 /* PokemonListaItem.swift */; };
 		48DF03FB2E5A9EE200ED8425 /* PokemonDetalhesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF03FA2E5A9EE200ED8425 /* PokemonDetalhesView.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		4884F3F72E5B6AF1003AB0C8 /* FundoPokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundoPokemonView.swift; sourceTree = "<group>"; };
 		48AC3F772E57EF120010C60F /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
 		48AC3F792E57FA800010C60F /* PokedexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexModel.swift; sourceTree = "<group>"; };
-		48B39CA42E5D462600AA7125 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusBarView.swift; path = /Users/pedrooliveira/Downloads/StatusBarView.swift; sourceTree = "<absolute>"; };
 		48B39CA72E5D4C4200AA7125 /* PokemonListaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListaItem.swift; sourceTree = "<group>"; };
 		48D6FC612E54E08D00BA5038 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DF03FA2E5A9EE200ED8425 /* PokemonDetalhesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetalhesView.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			children = (
 				48DF03FA2E5A9EE200ED8425 /* PokemonDetalhesView.swift */,
 				4884F3F72E5B6AF1003AB0C8 /* FundoPokemonView.swift */,
-				48B39CA42E5D462600AA7125 /* StatusBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,7 +227,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					48D6FC602E54E08D00BA5038 = {
 						CreatedOnToolsVersion = 16.2;
@@ -279,7 +276,6 @@
 				4826C9082E56B80B00E19D0A /* CadastroView.swift in Sources */,
 				4826C9022E56A4EE00E19D0A /* TextfieldCustomizado.swift in Sources */,
 				48DF03FB2E5A9EE200ED8425 /* PokemonDetalhesView.swift in Sources */,
-				48B39CA52E5D462600AA7125 /* StatusBarView.swift in Sources */,
 				4884F3F62E5B5586003AB0C8 /* PokemonTipoModel.swift in Sources */,
 				4826C9002E56983F00E19D0A /* LoginView.swift in Sources */,
 				48B39CA82E5D4C4200AA7125 /* PokemonListaItem.swift in Sources */,
@@ -327,6 +323,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 739NT6VSR8;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -350,6 +347,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -390,6 +388,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 739NT6VSR8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -406,6 +405,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -419,7 +419,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokedex/Preview Content\"";
-				DEVELOPMENT_TEAM = 739NT6VSR8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,7 +447,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokedex/Preview Content\"";
-				DEVELOPMENT_TEAM = 739NT6VSR8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
