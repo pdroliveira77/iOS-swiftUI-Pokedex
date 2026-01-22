@@ -56,10 +56,9 @@ struct PokemonDetalhesView: View {
                                 ForEach(pokemon.stats) { status in
                                     HStack
                                     {
-                                        Text(status.nome.capitalized)
-                                        Spacer()
-                                        Text("\(status.valor)")
-                                            .fontWeight(.bold)
+                                        StatusBarView(nome: status.nome, valor: Double(status.valor))
+                                        
+
                                     }
                                 }
                             }
